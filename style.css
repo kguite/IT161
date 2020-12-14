@@ -1,0 +1,317 @@
+/*
+  ========================================
+  Style Reset START
+  ========================================
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-size: 62.5%;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+  ========================================
+  Style Reset END
+  ========================================
+
+  ========================================
+  START CSS 
+  ========================================
+
+  ========================================
+  GRID
+  ========================================
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+}
+/*
+  ========================================
+  BASE (Colors, Fonts, Backgrounds)
+  ========================================
+*/
+body{
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: 62.5%;
+}
+
+
+  /*
+  ========================================
+  LAYOUT (Sizing and Layout of Main Elements)
+  ========================================
+*/
+header{
+  position: static;
+  margin: 0 auto;
+  padding: 5%;
+  width: 100%;
+  height: 8em;
+  clear: both;
+}
+
+nav a {
+	padding: 1.5% 0;
+	width: auto;
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	padding: 10px;
+	margin-right: 50px;
+	font-weight: 400;
+	font-size: 2em;
+  color: rgb(167, 12, 64);
+}
+
+
+.welcome {
+	background: url("https://images.unsplash.com/photo-1486427944299-d1955d23e34d") no-repeat center;
+	background-size: cover;
+	height: 400px;
+	clear: both;
+	display: block;
+  margin-bottom: 20px;
+}
+
+.welcome h1 {
+	text-align: center;
+	margin: 30px;
+	padding: 10px;
+	clear: both;
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: inherit;
+	color: rgb(241, 117, 156);
+}
+
+.coffee {
+	background: url("https://images.unsplash.com/photo-1528696892704-5e1122852276") no-repeat center;
+	background-size: cover;
+	height: 400px;
+	clear: both;
+	display: block;
+}
+
+.coffee h2 {
+	text-align: left;
+	margin-left: 20px;
+	padding: 20px;
+	clear: both;
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: inherit;
+	color: white;
+}
+
+.coffee ul {
+	clear: both;
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: white;
+	list-style: none;
+	text-align: left;
+	margin-left: 30px;
+	padding: 5px;
+	padding-bottom: 10px;
+  line-height: inherit;
+}
+	
+.coffee li {
+  padding: 5px;
+}
+.sweet {
+	background: url("https://images.unsplash.com/photo-1486428128344-5413e434ad35") no-repeat center;
+	background-size: cover;
+	height: 400px;
+	clear: both;
+	display: block;
+}
+
+.sweet h2 {
+	text-align: left;
+	margin: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	clear: both;
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: inherit;
+	color: white;
+}
+
+.sweet ul {
+	clear: both;
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: white;
+	list-style: none;
+	text-align: left;
+	margin: 20px;
+	margin-left: 20px;
+	padding: 5px;
+  padding-left: 20px;
+	padding-bottom: 10px;
+  line-height: inherit;
+}
+
+.sweet li {
+  padding: 5px;
+}
+
+.container {
+	width: 100%;
+	padding: 20px;
+	margin-top: 25px;
+	height: 300px;
+	justify-content: space-evenly;
+}
+	
+.oneThirdOne {
+	margin: 5px;
+	padding: 12em;
+	width: 32%;
+	height: 16em;
+	float: left;
+	background: url("https://images.unsplash.com/photo-1495121864268-11b119abeba0") no-repeat center;
+	background-size: cover;
+}
+
+.oneThirdTwo {
+	margin: 5px;
+	padding: 12em;
+	width: 32%;
+	height: 16em;
+	float: left;
+	background: url("https://images.unsplash.com/photo-1519869491916-8ca6f615d6bd") no-repeat center;
+	background-size: cover;
+}
+
+.oneThirdThree {
+	margin: 5px;
+	padding: 12em;
+	width: 32%;
+	height: 16em;
+	float: left;
+	background: url("https://images.unsplash.com/photo-1472698938026-79bed881e5b7") no-repeat center;
+	background-size: cover;
+}
+
+.three h5 {
+	color: rgb(247,145,185);
+	font-size: 3.8em;
+  padding: 5px;
+	font-align: center;
+	width: 33%;
+	align-content: space-evenly;
+	float: left;
+}
+
+footer {
+  margin: 0 auto;
+  padding: 1%;
+  width: 100%;
+  height: 10em;
+  left: 0;
+  bottom: 0;
+  clear: both;
+  background: url("https://images.unsplash.com/photo-1506269996138-4c6d92fbd8a5") no-repeat center;
+  background-size: cover;
+}
+
+footer  a {
+  font-size: 3em;
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+footer img {
+	float: right;
+}
+
+address {
+	text-align: left;
+	font-size: 3em;
+	color: white;
+	margin-left: 10px;
+	padding: 5px;
+}
+/*
+  ========================================
+ MEDIA QUERIES
+  ========================================
+*/
+@media all and (max-width: 1200px){
+  .container{
+	padding: 0 5%;
+	transition: .3s;
+  }
+}
+
+@media (max-width: 800px) {
+	.three, {
+		display: inline-flex;
+		flex-direction: column;
+	}
+	
+	.container {
+		display: block;
+		flex-direction: column;
+		clear: both;
+	}
+	
+	.oneThirdOne, .oneThirdTwo, .oneThirdThree {
+		width: 100%;
+	}
+}
+/*
+  ========================================
+  THEME (could include styles based around the skin, or look and feel, of different modules)
+  ========================================
+*/
+
+
+
